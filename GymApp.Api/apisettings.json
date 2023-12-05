@@ -1,0 +1,7 @@
+{
+  // News API Key
+  "NewsConfig": {
+    "ApiKey": "b3941d9ea905439d8a2cc06ccb90702e",
+    "Url": "https://newsapi.org/v2/",
+  }
+}

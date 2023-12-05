@@ -1,0 +1,16 @@
+.background {
+    border-bottom: #3a01ff 3px solid;
+}
+
+.logo {
+    width: 200px;
+}
+
+.container {
+    height: 100px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}

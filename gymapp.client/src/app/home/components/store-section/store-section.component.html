@@ -1,0 +1,12 @@
+<div class="mt-3">
+    <ngb-carousel [showNavigationIndicators]="false" [interval]="600000">
+		<ng-container *ngFor="let product of products; let i = index">
+            
+            <ng-template ngbSlide [id]="i.toString()"> 
+                <div>
+                    <img class="carousel-image" [src]="product.image" [alt]="product.description" />
+                </div>
+            </ng-template>
+        </ng-container>
+	</ngb-carousel>
+</div>

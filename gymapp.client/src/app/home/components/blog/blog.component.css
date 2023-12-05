@@ -1,0 +1,12 @@
+:host ::ng-deep .carousel-caption {
+    background: black;
+    bottom: 0rem;
+    left: 0rem;
+    right: 0rem;
+    opacity: 65%;
+}
+
+.carousel-image {
+    aspect-ratio: 16/9;
+    object-fit: cover;
+}

@@ -1,0 +1,16 @@
+<div class="background">
+  <div class="container row align-items-center">
+    <div class="col-3">
+      <a routerLink="/">
+        <img class="logo" src="/assets/logo.png" alt="logo" />
+      </a>
+    </div>
+    <div class="col-9 text-end pe-3 pe-sm-0 pt-3 pt-sm-0">
+      <button mat-button [matMenuTriggerFor]="menu"><strong class="u-color-blue">Main</strong></button>
+      <mat-menu #menu="matMenu">
+        <button mat-menu-item><a routerLink="/">Home</a></button>
+        <button mat-menu-item><a routerLink="/store">Store</a></button>
+      </mat-menu>
+    </div>
+  </div>
+</div>

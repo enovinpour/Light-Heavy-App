@@ -1,0 +1,47 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+img {
+    width: 100%;
+}
+
+.container {
+    @media (min-width: 450px) {
+        margin-left: 5rem;
+        margin-right: 5rem;
+    }
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
+}
+
+.lg-background {
+    background-color: lightgray;
+    min-height: 100%;
+}
+
+.section {
+    background: white;
+
+    padding: 1rem;
+
+    @media (min-width: 450px) {
+        padding: 3rem;
+        border-radius: 0.675rem;
+    }
+}
+
+.u-color-blue {
+    color: #3a01ff;
+}
+
+.u-color-black {
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}
